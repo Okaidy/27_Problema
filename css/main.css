@@ -1,1 +1,74 @@
 /* Inserta tu código aqui */
+/*quita viñetas*/
+ul{
+	list-style: none;
+}
+li{
+	display: inline;
+}
+/*cambia el color a los enlaces*/
+a{
+	color: black;
+}
+/*personaliza la barra de menu*/
+#barra{
+	border-radius: 0%;
+	padding-top: 2%;
+	overflow: hidden;
+}
+/*fondo gris*/
+.gris{
+	background-color: #D8D8D8;
+}
+/*fondo negro*/
+.black{
+	background-color: black;
+}
+.mt-4{
+	margin-top: 4%;
+}
+.gray{
+	background-color: gray;
+}
+.largo{
+	width: 50%;
+}
+.blanca{
+	color: white;
+}
+.tgris{
+	color:#A4A4A4;
+}
+.sub{
+	text-decoration: underline;
+}
+.ib{
+	display: inline-block;
+}
+.negrito{
+	width: 15%;
+}
+img{
+	width: 100%;
+}
+.fuerte{
+	font-weight: bold;
+}
+.caja{
+	background-color: #848484;
+	height:100px;
+	overflow: hidden;
+	padding: 25% 0%;
+	font-size: 25px;
+}
+.sep{
+	margin:3% 0%;
+}
+.relleno{
+	padding:2%;
+}
+#gorda{
+	height: 3px;
+	background-color: gray;
+	border:none;
+}

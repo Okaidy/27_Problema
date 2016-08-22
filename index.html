@@ -15,10 +15,300 @@
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
-
+  <div class="container-fluid"><!--container-fluid para la pagina  -->
+    <header><!-- cabecera de la pagina -->
+      <div class="row"><!-- renglon pra cabecera -->
+        <div class="col-xs-6 col-sm-5 col-lg-5"><!-- espacio para nombre -->
+          <h1>Site name</h1>
+        </div><!--cierre columnas nombre  -->
+        <div class="col-xs-6 col-sm-7 col-lg-7 text-right"><!--espacio para enlaces  -->
+          <ul class="mt-4">
+            <li><a href="#"><span class="glyphicon glyphicon-home"></span> Noticias</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-home"></span> Enlaces RSS</a></li>
+            <li class="visible-lg-inline visible-md-inline">|</li>
+            <li class="visible-lg-inline visible-md-inline"><input type="text" placeholder="Ingresa tu búsqueda"></li>
+            <li class="visible-lg-inline visible-md-inline"><button>Buscar</button></li>
+          </ul>
+        </div><!-- cierre de clumnas de enlace -->
+      </div><!-- fin de renglon -->
+    </header><!--fin de cabecera  -->
+    <nav class="navbar gris" id="barra"><!--menu -->
+      <div class="navbar-header"><!-- hamburguesa -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+          <span class="sr-only">Menu</span>
+          <span class="icon-bar black"></span>
+          <span class="icon-bar black"></span>
+          <span class="icon-bar black"></span>
+          <span class="icon-bar black"></span>
+        </button>
+      </div><!-- fin de hamburguesa -->
+      <div class="collapse navbar-collapse" id="menu"><!--menu tabs  -->
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">Bienvenido</a></li>
+          <li role="presentation"><a href="#">Actualidades</a></li>
+          <li role="presentation"><a href="#">En directo</a></li>
+          <li role="presentation"><a href="#">Reporte financiero</a></li>
+          <li role="presentation"><a href="#">Nuestra oferta</a></li>
+          <li role="presentation"><a href="#">De nosotros a usted</a></li>
+        </ul>
+      </div><!--fin de enu tabs  -->
+    </nav><!--menu  -->
+    <article><!-- contenido de pagina -->
+      <div class="row">
+        <section><!--hitoria e imagen  -->
+          <div class="col-xs-12 col-sm-7 col-lg-5"><!-- columnas para la primera seccion -->
+            <div class="row"><!--primer renglon -->
+              <div class="col-xs-12 col-sm-12 col-lg-12"><!--columnas para historia  -->
+                <h3 class="largo gray blanca">Historia destacada</h3>
+                <p>Articulo | <span class="tgris">publicado el 09/10/15</span></p>
+                <h4>Lorem ipsum et diligant gentris</h4>
+                <p class="tgris">Lorem ipsum dolor it amet, consectetur adipisicing elit. Tempore dolores harum quasi aliquam mollitia? Aperiam, nulla, provident. Ducimus nemo id repudiandae porro natus nobis, maxime impedit ipsum. Fugit, vitae eum!</p>
+                <div class="row"><!-- renglon ver mas etiquetas -->
+                  <div class="col-xs-4 col-sm-3 col-lg-3"><!-- ver mas -->
+                    <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                  </div><!-- cierre de columnas ver mas -->
+                  <div class="col-xs-8 col-sm-9 col-lg-9"><!-- etiquetas -->
+                    <p><span class="glyphicon glyphicon-tag"></span> Etiquetas: <a class="tgris sub" href="#">Lorem</a><a class="tgris sub" href="#">ipsum</a><a class="tgris sub" href="#">diligant</a></p>
+                  </div><!-- cierre de columnas de etiquetas -->
+                </div><!--fin renglon  -->
+              </div><!--fin columnas hitoria  -->
+            </div><!--cierre de renglon  -->
+            <hr><!-- linea separadora -->
+            <div class="row"><!--segundo renglon -->
+              <div class="col-xs-12 col-sm-12 col-lg-12"><!-- titulo -->
+                <div class="black blanca ib negrito text-center">Webzone</div>
+                <p class="ib"><span class="sub">Preguntas</span> | publicado el 09/10/15</p>
+                <h4>Lorem ipsum et diligant gentris</h4>
+                <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolores harum quasi aliquam mollitia? Aperiam, nulla, provident. Ducimus nemo id repudiandae porro natus nobis, maxime impedit ipsum. Fugit, vitae eum!</p>
+                <div class="row"><!-- renglon ver mas etiquetas -->
+                  <div class="col-xs-4 col-sm-3 col-lg-3"><!-- ver mas -->
+                    <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                  </div><!-- cierre de columnas ver mas -->
+                  <div class="col-xs-8 col-sm-9 col-lg-9"><!-- etiquetas -->
+                    <p><span class="glyphicon glyphicon-tag"></span> Etiquetas: <a class="tgris sub" href="#">Lorem</a><a class="tgris sub" href="#">ipsum</a><a class="tgris sub" href="#">diligant</a></p>
+                  </div><!-- cierre de columnas de etiquetas -->
+                </div><!--fin renglon  -->
+              </div><!-- fin de tirulo -->
+            </div><!--fin de renglon  -->
+            <hr><!--linea separadora  -->
+            <div class="row"><!--tercer renglon -->
+              <div class="col-xs-12 col-sm-12 col-lg-12"><!-- columnas para titulo -->
+                <p>Articulo | <span class="tgris">publicado el 09/10/15</span></p>
+                <h3> Etiam finibus sagittis</h3>
+                <img src="img/run.jpg" alt="foto">
+                <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolores harum quasi aliquam mollitia? Aperiam, nulla, provident. Ducimus nemo id repudiandae porro natus nobis, maxime impedit ipsum. Fugit, vitae eum!</p>
+                <div class="row"><!-- renglon ver mas etiquetas -->
+                  <div class="col-xs-4 col-sm-3 col-lg-3"><!-- ver mas -->
+                    <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                  </div><!-- cierre de columnas ver mas -->
+                  <div class="col-xs-8 col-sm-9 col-lg-9"><!-- etiquetas -->
+                    <p><span class="glyphicon glyphicon-tag"></span> Etiquetas: <a class="tgris sub" href="#">Lorem</a><a class="tgris sub" href="#">ipsum</a><a class="tgris sub" href="#">diligant</a></p>
+                  </div><!-- cierre de columnas de etiquetas -->
+                </div><!--fin renglon  -->
+              </div><!--fin de columnas  -->
+            </div><!--fin de renglon -->
+            <hr><!-- linea separadora -->
+            <div class="row"><!-- cuarto renglon -->
+              <div class="col-xs-12 col-sm-12 col-lg-12">
+                <h4>Lorem ipsum et diligant gentris</h4>
+                <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolores harum quasi aliquam mollitia? Aperiam, nulla, provident. Ducimus nemo id repudiandae porro natus nobis, maxime impedit ipsum. Fugit, vitae eum!</p>
+                <div class="row"><!-- renglon ver mas etiquetas -->
+                  <div class="col-xs-4 col-sm-3 col-lg-3"><!-- ver mas -->
+                    <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                  </div><!-- cierre de columnas ver mas -->
+                  <div class="col-xs-8 col-sm-9 col-lg-9"><!-- etiquetas -->
+                    <p><span class="glyphicon glyphicon-tag"></span>Etiquetas: <a class="tgris sub" href="#">Lorem</a><a class="tgris sub" href="#">ipsum</a><a class="tgris sub" href="#">diligant</a></p>
+                  </div><!-- cierre de columnas de etiquetas -->
+                </div><!--fin renglon  -->
+              </div>
+            </div><!-- fin de renglon -->
+          </div><!-- fin de columnas -->
+        </section><!--fin de historia e imagen -->
+        <section><!-- video y agenda -->
+          <div class="col-xs-12 col-sm-5 col-lg-4 col-md-5"><!--columnas pra segunda seccion -->
+            <div class="row"><!--primer renglon  -->
+              <div class="col-xs-12 col-sm-12 col-lg-12"><!-- espacio pra video -->
+                <div class="gris">
+                  <h3 class="blanca largo gray">Historia destacada</h3>
+                  <iframe width="100%" height="215" src="https://www.youtube.com/embed/SqOSkY1NvAA" frameborder="0" allowfullscreen></iframe>
+                  <h4>Claire Dupond</h4>
+                  <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima et nesciunt architecto, accusamus reiciendis necessitatibus consectetur molestias aspernatur ratione nostrum, esse quae, tempora fuga optio temporibus ea dolore soluta nulla!</p>
+                  <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-lg-8">
+                      <p class="tgris fuerte">publicado el 09/10/15</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-lg-4 text-right">
+                      <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- cierre de columnas de video -->
+            </div><!--cierre de prier renglon  -->
+            <div class="row"><!--segundo renglon  -->
+              <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12"><!--columnajs para la agenda -->
+                <h3 class="largo blanca gray">Agenda</h3>
+                <div class="row"><!-- primer elemnto -->
+                  <div class="col-xs-3 col-sm-3 col-md-3  col-lg-3"><!-- dia -->
+                    <div class="caja text-center"><p>23 Enero</p></div>
+                  </div><!-- cierre de columnass de dia -->
+                  <div class="col-xs-9 col-sm-9 col-lg-9 col-md-9"><!-- texto -->
+                    <h4>Lorem ipsum dolor et</h4>
+                    <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="tgris">De 23 a 28 Diciembre 2015</p>
+                  </div><!-- cierre de columnas de texto -->
+                </div><!-- cierre de primer elmento -->
+                <div class="row"><!-- ssegundo elemnto -->
+                  <div class="col-xs-3 col-sm- col-lg-3 col-md-3"><!-- dia -->
+                    <div class="caja text-center"><p>23 Enero</p></div>
+                  </div><!-- cierre de columnass de dia -->
+                  <div class="col-xs-9 col-sm-9 col-lg-9 col-md-9"><!-- texto -->
+                    <h4>Lorem ipsum dolor et</h4>
+                    <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="tgris">De 23 a 28 Diciembre 2015</p>
+                  </div><!-- cierre de columnas de texto -->
+                </div><!-- cierre de segundo elmento -->
+                <div class="row"><!-- tercer elemnto -->
+                  <div class="col-xs-3 col-sm-3 col-lg-3 col-md-3"><!-- dia -->
+                    <div class="caja text-center"><p>23 Enero</p></div>
+                  </div><!-- cierre de columnass de dia -->
+                  <div class="col-xs-9 col-sm-9 col-lg-9 col-md-9"><!-- texo -->
+                    <h4>Lorem ipsum dolor et</h4>
+                    <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="tgris">De 23 a 28 Diciembre 2015</p>
+                  </div><!-- cierre de columnas de texto -->
+                </div><!-- cierre de tercer elmento -->
+                <div class="row"><!-- cuarto elemnto -->
+                  <div class="col-xs-3 col-sm-3 col-lg-3 col-md-3"><!-- dia -->
+                    <div class="caja text-center"><p>23 Enero</p></div>
+                  </div><!-- cierre de columnass de dia -->
+                  <div class="col-xs-9 col-sm-9 col-lg-9 col-md-9"><!-- texto -->
+                    <h4>Lorem ipsum dolor et</h4>
+                    <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="tgris">De 23 a 28 Diciembre 2015</p>
+                  </div><!-- cierre de columnas de texto -->
+                </div><!-- cierre de cuarto elmento -->
+              </div><!--cierrre de columnas  -->
+            </div><!--cierre de segundo renglon  -->
+            <hr><!--linea separadora  -->
+            <div class="row"><!-- tecer renglon -->
+              <div class="col-xs-12 col-sm-12 col-lg-12"><!-- espacio pra mas info -->
+                <h3>Más información</h3>
+                <div class="row"><!-- renglon para localidades -->
+                  <div class="col-xs-12 col-sm-12 col-lg-12"><!-- columnas para localidades -->
+                    <a class="tgris sub" href="#">Localidades</a>
+                    <h4>Lorem ipsum dolor et</h4>
+                    <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div><!-- cierre de columnas -->
+                </div><!-- cierre de localidades -->
+                <div class="row"><!-- renglon para localidades -->
+                  <div class="col-xs-12 col-sm-12 col-lg-12"><!-- columnas para hospimedia -->
+                    <a class="tgris sub" href="#">Hospimedia</a>
+                    <h4>Lorem ipsum dolor et</h4>
+                    <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div><!-- cierre de columnas -->
+                </div><!-- cierre de hospimedia -->
+              </div><!-- cierre de colunas de mas info -->
+            </div><!-- tercer renglon -->
+          </div><!-- cierre de columnas -->
+        </section><!--fin de seccion  -->
+        <aside class="visible-lg">
+          <div class="col-lg-3"><!-- columnas para aside -->
+            <div class="row"><!-- primer renglon -->
+              <div class="col-lg-12"><!-- espacio pra mas info -->
+                <h3>Más información</h3>
+                <p><span class="glyphicon glyphicon-bookmark"></span>Finanzas y fiscalización</p>
+                <p><span class="glyphicon glyphicon-bookmark"></span>Inversión y equipos</p>
+                <p><span class="glyphicon glyphicon-bookmark"></span>Medio ambiente</p>
+                <p><span class="glyphicon glyphicon-bookmark"></span>Habitat/Urbanismo</p>
+                <p><span class="glyphicon glyphicon-bookmark"></span>Sanidad</p>
+                <p><span class="glyphicon glyphicon-bookmark"></span>Social/Servicios</p>
+                <p><span class="glyphicon glyphicon-bookmark"></span>Transporte</p>
+              </div><!-- cierre de columnas -->
+            </div><!-- cierre de primer renglon -->
+            <hr><!-- linea separadora -->
+            <div class="row"><!-- segundo renglon -->
+              <div class="col-lg-12 sep"><!-- columnas para ecodefi -->
+                <div class="gris relleno">  
+                  <h3>MAGAZINE</h3>
+                  <h3 class="fuerte">ECODEFI</h3>
+                  <h6 class="tgris">ENQUETE</h6>
+                  <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto adipisci esse, deserunt cum expedita, soluta magni maxime, quia deleniti.</p>
+                  <h6 class="tgris">PREGUNTAS</h6>
+                  <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit alias sequi possimus illo ipsa quam blanditiis modi natus.</p>
+                </div>
+              </div><!-- fin de ecodefi -->
+            </div><!-- fin de segundo renglon -->
+            <div class="row"><!-- tercer renglon -->
+              <div class="col-lg-12 sep"><!-- columnas para acciones-->
+                <div class="gris relleno">
+                  <h3>MAGAZINE</h3>
+                  <h3 class="fuerte">ACCIONES COMUNES</h3>
+                  <h6 class="tgris">ENQUETE</h6>
+                  <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto adipisci esse, deserunt cum expedita, soluta magni maxime, quia deleniti.</p>
+                  <h6 class="tgris">PREGUNTAS</h6>
+                  <p class="tgris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit alias sequi possimus illo ipsa quam blanditiis modi natus.</p>
+                </div>
+              </div><!-- fin de acciones -->
+            </div><!-- fin de tercer renglon -->
+            <div class="row"><!-- cuarto renglon -->
+              <div class="col-lg-12 sep ">
+                <div class="gris relleno">
+                  <p class="fuerte">Nueva generacion de la internet</p>
+                </div>
+              </div>
+            </div><!-- fin de cuarto renglon -->
+          </div><!-- cierre de columnas -->
+        </aside>
+      </div><!-- cierre de row -->
+    </article><!-- contenido de pagina -->
+    <hr id="gorda"><!-- linea separadoras -->
+    <footer><!-- pie de pagina-->
+      <div class="row"><!-- renglon de pie -->
+        <div class="col-xs-6 col-sm-3 col-lg-2"><!--columnas para rubros  -->
+          <h4>Rubros</h4>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Actualidades</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> En directo</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Reporte financiero</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Nuestra obra</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> De nosotros a ustedes</p>
+        </div><!--cierre de columnas  -->
+        <div class="visible-lg col-lg-2"><!--columnas para expert  -->
+          <h4>Expertise</h4>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Finanzas y fiscalización</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Investigación y equipos</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Medio ambiente</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Habitat/Urbanismo</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Sanidad</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Social/Servicios</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Transporte</p>
+        </div><!--cierre de columnas  --> 
+        <div class="col-xs-6 col-sm-3 col-lg-2"><!--columnas para suscripcion  -->
+          <h4>Suscribción</h4>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Todo el flujo</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Flujo RSS para expertos</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Noticias</p>
+        </div><!--cierre de columnas  -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-3 col-lg-3"><!--columnas para nosotros  -->
+          <h4>Nosotros</h4>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> ¿Quienes somos?</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Plan de sitio</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></slpan> Información legal</p>
+        </div><!--cierre de columnas  -->
+        <div class="col-xs-6 col-sm-3 col-lg-3"><!--columnas para contactos -->
+          <h4>Contacto</h4>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Contáctanos</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> FAQ</p>
+          <p><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Haga sus preguntas</p>
+        </div><!--cierre de columnas  -->
+      </div><!-- fin de renglon -->
+    </footer><!-- fin de pie -->
+  </div><!--fin de container-fluid  -->
 	<!-- Incluir todos tus scripts apartir de este punto -->
     <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!--  -->
